@@ -16,7 +16,7 @@
  max-width: 100rem;
  background-repeat:no-repeat;
  background-attachment:fixed;
- background: url('/assets/images/mobile/endimoniat.jpg') top center;
+ background: url('../images/mobile/endimoniat.jpg') top center;
  background-repeat: no-repeat;
  background-size: cover;
  position:relative;
@@ -29,7 +29,7 @@
  max-width: 100rem;
  background-repeat:no-repeat;
  background-attachment:fixed;
- background: url('/assets/images/desktop/endimoniat.jpg') top center;
+ background: url('../images/desktop/endimoniat.jpg') top center;
  background-size: cover;
  background-repeat: no-repeat;
  position:relative;
@@ -45,19 +45,19 @@ span{margin-top:4rem;font-size:8rem; font-weight: bolder; color:$primary-color}
 h3{text-transform: uppercase;}
 p{color:$light-gray;}
 article {@include breakpoint(medium) {padding: 0 12.5rem 2rem 12.5rem;}}
-.disseny{ background: url('/assets/images/desktop/endisseny.jpg') top center;position:relative;
+.disseny{ background: url('../images/desktop/endisseny.jpg') top center;position:relative;
     margin-right: auto;
     margin-left: auto;}
-.motlle{ background: url('/assets/images/desktop/enmotlle.jpg') top center;position:relative;
+.motlle{ background: url('../images/desktop/enmotlle.jpg') top center;position:relative;
     margin-right: auto;
     margin-left: auto;}
-.resina{ background: url('/assets/images/desktop/enresina.jpg') top center;position:relative;
+.resina{ background: url('../images/desktop/enresina.jpg') top center;position:relative;
     margin-right: auto;
     margin-left: auto;}
-.pintura{ background: url('/assets/images/desktop/enpintura.jpg') top center;position:relative;
+.pintura{ background: url('../images/desktop/enpintura.jpg') top center;position:relative;
     margin-right: auto;
     margin-left: auto;}
-.pack{ background: url('/assets/images/desktop/enpack.jpg') top center;position:relative;
+.pack{ background: url('../images/desktop/enpack.jpg') top center;position:relative;
     margin-right: auto;
     margin-left: auto;}
 }
