@@ -1,9 +1,10 @@
 header {position:relative;
         z-index:1000;
-        .top-bar-left{margin-top:8px; font-weight: bold; color:blue;}
+        .top-bar{padding:0;}
+        .top-bar-left{margin-top:10px; font-weight: bold; color:blue;}
         .top-bar-right{background-color:$white;}
         .title-bar{text-transform:uppercase;font-weight: 800;}
-        img{max-height: 3.3rem; margin:-12px 10px 0; height: 100%}
+        img{max-height: 2rem; margin:-12px 10px 0; height: 100%}
       }
 .menu-icon {
           position: relative;
@@ -11,12 +12,12 @@ header {position:relative;
           vertical-align: middle;
           width: 20px;
           height: 16px;
-          margin-top: 1.1rem;
+          margin-top: 0.5rem;
           cursor: pointer;
 }
 .moreinfo{margin-bottom:1rem;}
 .contacte{
-  margin:5px 0 10px 0;background-color:$white; border:3px solid $primary-color; color:$primary-color; border-radius:0.5rem; text-transform:uppercase; font-weight:bold;}
+  margin-bottom:5px;background-color:$white; border:3px solid $primary-color; color:$primary-color; border-radius:0.5rem; text-transform:uppercase; font-weight:bold;}
 .footer{position:relative;
   &::before {
      position:absolute;
