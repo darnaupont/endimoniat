@@ -1,0 +1,37 @@
+#contacte{
+.hero{position:relative; padding-bottom:5rem; margin-bottom:5rem;
+h1{padding:1.4rem;}}
+.calltoaction{
+  margin-bottom:5rem;
+  .columns{background-color:rgba(0, 0, 0, 0.3); padding:1rem;}
+  color:$white;
+  margin:3rem 0;
+  padding:2rem 0;
+  @include breakpoint(small) {
+ max-width: 100rem;
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+ background: url('../images/mobile/endimoniat.jpg') top center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position:relative;
+   }
+
+  @include breakpoint(large) {
+ max-width: 100rem;
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+ background: url('../images/desktop/endimoniat.jpg') top center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ position:relative;
+   }}
+section{padding-top:3rem;}
+.help-text{color:$white;}
+.preu{font-size:5rem;}
+.moreinfo{position:absolute;text-align: center; margin-bottom:1rem;}
+.continua{font-weight: bold; text-transform:uppercase; color:$primary-color; background-color: transparent;letter-spacing: 2px; font-size:1rem;}
+.info{border: 2px solid $white; font-weight: 600; letter-spacing: 1px;}
+.dimoni{
+  img{max-width: 8rem;}}
+}

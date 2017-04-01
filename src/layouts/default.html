@@ -1,19 +1,49 @@
 {{!-- This is the base layout for your project, and will be used on every page. --}}
-
-<!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="es">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{{browserTitle}}</title>
+    <meta name="description" content"{{description}}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link rel="shortcut icon" type="image/ico" href="{{root}}assets/img/logos/favicon.ico">
+    <meta name="robots" content="nofollow,noindex"
   </head>
   <body>
+    <header>
+       <div class="top-bar-container" data-sticky-container>
+         <div class="sticky" data-sticky data-options="marginTop: 0;stickyOn: small;" style="width:100%">
+          <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+            <div class="top-bar-left"><img src="{{root}}assets/images/logos/logoendimoniat.svg" alt="endimoniat"><a href="http://www.endimoniat.com">Endimoniat</a></div>
+            <div class="top-bar-right"> <button class="menu-icon" type="button" data-toggle="main-menu"></button></div>
+        </div>
+        <div class="top-bar" id="main-menu">
+          <div class="title-bar">
+        <div class="top-bar-left">
+                <a class="show-for-medium" href="http://www.endimoniat.com"><img src="{{root}}assets/images/logos/logoendimoniat.svg" alt="endimoniat"><b>Endimoniat</b></a>
+        </div>
+        <div class="top-bar-right">
+            <ul class=" medium-horizontal vertical dropdown menu text-center" data-responsive-menu="accordion medium-dropdown">
+                    <li><a href="contacte.html#formulari" class="button contacte"><div class="text">reserva la teva</div></a> </li>
+                </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </header>
 
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> body}}
-
+<div class="footer row">
+  <div class="small-12 medium-6 text-center medium-text-right columns">
+    <p><a href="#">Endimoniat</a> © 2017</p>
+  </div>
+  <div class="small-12 medium-6 text-center medium-text-left columns">
+    <p>Website Development & Design by <a href="http://www.3idees.com">3idees</a></p>
+  </div>
+</div>
     <script src="{{root}}assets/js/app.js"></script>
   </body>
 </html>

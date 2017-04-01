@@ -1,0 +1,61 @@
+
+<div id="contacte">
+<div class="hero row text-center">
+  <div class="small-12 columns">
+            <h1>¿de quin dimoni ets tu?</h1>
+  </div>
+  <div class="small-12 medium-4 large-3 columns">
+      <a href="#formulari" class="dimoni manacor"><img src="{{root}}assets/images/logos/logoendimoniat.svg" alt="endimoniat"><br>Manacor</a>
+  </div>
+  <div class="small-12 medium-4 large-3 columns">
+      <a href="#formulari" class="dimoni arta"><img src="{{root}}assets/images/logos/logoendimoniat.svg" alt="endimoniat"><br>Artà</a>
+  </div>
+  <div class="small-12 medium-4 large-3 columns">
+      <a href="#formulari" class="dimoni santllorenc"><img src="{{root}}assets/images/logos/logoendimoniat.svg" alt="endimoniat"><br>Sant Llorenç</a>
+  </div>
+  <div class="small-12 medium-4 large-3 columns">
+      <a href="#formulari" class="dimoni algaida"><img src="{{root}}assets/images/logos/logoendimoniat.svg" alt="endimoniat"><br>Algaida</a>
+  </div>
+  </div>
+  <div class="small-12 moreinfo columns">
+      <a class="button medium text-center continua " href="#formulari">nosaltres som de tots  <a href="#formulari" class="arrow-down black"></a></a>
+  </div>
+<div>
+  <section id="formulari" class="formulari">
+    <div class="calltoaction row">
+      <div class="small-10 medium-4 small-centered columns">
+        <h3 class="text-center">El preu del dimoni és de</h3>
+        <p class="preu text-center"><b>149€</b><p>
+      <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbx76WZ2wWN5M_YRdSJovhs1S7QTbcPEhbMUjoR7mJlPj9lkjxYo/exec" class="margintop">
+             <select name="dimoni"  required id="dimoni">
+               <option value="Artà">Artà</option>
+               <option value="Manacor">Manacor</option>
+               <option value="Sant Llorenç">Sant Llorenç des Cardassar</option>
+               <option value="Algaida">Algaida</option>
+             </select>
+           <label class="help-text" for="alternativa">No hi ha el teu dimoni?. Sugereix-nos el teu!</label>
+           <input type="text" id="alternativa" placeholder="sa meva sogra" name="alternativa"/>
+           <hr>
+           <input type="text" required id="nombre" placeholder="Nom" name="nom" class="text-center" />
+           <input type="email" required id="email" placeholder="elteu@email.com" name="email" class="text-center" />
+           <input type="text" id="codiprom" placeholder="codi promocional" name="codiprom" class="text-center" />
+                     <input class="button info medium" type="submit" value="enviar" />
+
+       </form>
+       <div style="display:none; margin-top:4rem" id="thankyou_message">
+         <div class="row small-centered margintop">
+         <h2 class="margintop perfecto"><span>Enhorabona</span></h2>
+           <h3>Ja estàs <a href="http://www.endimoniat.com"><b>endimoniat</b></a>!<br> Aviat rebràs notícies nostres.</h3>
+           </div>
+           <div class="columns small-4 medium-2 small-centered ">
+           <h4 class="subtitle">Gràcies</h4>
+      </div>
+      </div>
+    </div>
+    </div>
+
+</section>
+</div>
+</div>
+<script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>

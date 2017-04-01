@@ -1,3 +1,14 @@
+header {position:relative;
+        z-index:100;}
+.hero{
+  position:absolute;
+  margin-top:-54px;
+  height:100%;
+  height:100hv;
+        }
+.abccc{  position: relative;
+  top: 40%;
+  transform: translateY(-50%);}
 @include breakpoint(small) {
 .endimoniat{
    background-repeat:no-repeat;
@@ -10,7 +21,7 @@
   }
   .com {background-color:blue;}
 
-.variacio{    
+.variacio{
     display: block;
 
     position: absolute;
@@ -116,6 +127,7 @@ max-width:100rem;
    background-attachment:fixed;
    background: url('../images/mobile/endimoniat.jpg') top center;
    background-repeat: no-repeat;
+   background-size: cover;
    position:relative;
 
      }
@@ -127,6 +139,7 @@ max-width:100rem;
    background-repeat:no-repeat;
    background-attachment:fixed;
    background: url('../images/desktop/endimoniat.jpg') top center;
+   background-size: cover;
    background-repeat: no-repeat;
    position:relative;
      }
@@ -161,18 +174,4 @@ max-width:100rem;
 .orbit{background-color:$primary-color; color:$white;}
 .orbit-container{margin:0rem;padding:0;}
 
-
-.section {margin-top:-25px; position:relative;}
 .orbit-previous, .orbit-next {padding:2rem;}
-
-.arrow-down{    
-    display: block;
-    width: 31px;
-    height: 17px;
-    background: transparent url(../images/arrow-down.png) 0 0 no-repeat;
-    position: absolute;
-    left: 50%;
-    margin-left: -15px;
-    bottom: 20px;
-    text-decoration: none;}
-.arrow-down:hover{    background: transparent url(../images/arrow-down.png) 0px -17px no-repeat;}

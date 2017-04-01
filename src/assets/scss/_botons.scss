@@ -1,0 +1,18 @@
+.arrow-down{
+  position:absolute;
+  z-index:200;
+  top: 3rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: -0.8rem;
+  border-bottom: 2px solid $white;
+  border-right: 2px solid $white;
+  float: left;
+  left: 50%;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  &:hover{  cursor: pointer;border-color:$black;}
+    }
+.black{border-color:$black;
+      &:hover{border-color:$primary-color;}}

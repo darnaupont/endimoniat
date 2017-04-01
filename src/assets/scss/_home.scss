@@ -1,0 +1,63 @@
+#home{
+  .hero{
+  position:absolute;
+  margin-top:-54px;
+  height:100%;
+  height:100hv;
+
+        }
+.continua{font-weight: bold; text-transform:uppercase; color:$white; border: 2px solid $white; background-color: transparent;letter-spacing: 2px; font-size:1rem;}
+.imagecenter{  position: relative;
+  top: 45%;
+  transform: translateY(-50%);}
+  @include breakpoint(small) {
+.endimoniat{
+ max-width: 100rem;
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+ background: url('../images/mobile/endimoniat.jpg') top center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position:relative;
+
+   }
+  }
+#com{padding-top:3rem;}
+  @include breakpoint(large) {
+  .endimoniat{
+ max-width: 100rem;
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+ background: url('../images/desktop/endimoniat.jpg') top center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ position:relative;
+   }
+}
+.moreinfo{position:absolute; bottom: 2rem;}
+
+.orbit-slide > div > div > span{ font-size:3rem;}
+#proces{
+.row{
+  padding-top:8rem;}
+span{margin-top:4rem;font-size:8rem; font-weight: bolder; color:$primary-color}
+h3{text-transform: uppercase;}
+p{color:$light-gray;}
+article {@include breakpoint(medium) {padding: 0 12.5rem 2rem 12.5rem;}}
+.disseny{ background: url('../images/desktop/endisseny.jpg') top center;position:relative;
+    margin-right: auto;
+    margin-left: auto;}
+.motlle{ background: url('../images/desktop/enmotlle.jpg') top center;position:relative;
+    margin-right: auto;
+    margin-left: auto;}
+.resina{ background: url('../images/desktop/enresina.jpg') top center;position:relative;
+    margin-right: auto;
+    margin-left: auto;}
+.pintura{ background: url('../images/desktop/enpintura.jpg') top center;position:relative;
+    margin-right: auto;
+    margin-left: auto;}
+.pack{ background: url('../images/desktop/enpack.jpg') top center;position:relative;
+    margin-right: auto;
+    margin-left: auto;}
+}
+}
